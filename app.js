@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const porductsRoutes = require('./api/routes/products');
+const productsRoutes = require('./api/routes/products');
 
-app.use(('/products', porductsRoutes) => {
-    
-})
+
+app.use('/product', productsRoutes);
+
 module.exports = app;
