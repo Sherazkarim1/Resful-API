@@ -7,7 +7,4 @@ const productsRoutes = require('./api/routes/products');
 app.use('/product', productsRoutes);
 
 module.exports = app;
-
-
-
-s;ldkfj;asldjkf;lasj
+sdjfsdj;fsldfj;a
